@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/shopware/shopware/5.3/engine/Shopware/Components/Plugin/schema/plugin.xsd">
+
+    <label lang="en">Sisow Payments</label>
+    <label lang="de">Sisow Payments</label>
+    <label lang="nl">Sisow Payments</label>
+
+    <version>5.3.0</version>
+    <copyright>(c) Sisow</copyright>
+    <link>https://www.sisow.nl</link>
+    <author>Sisow</author>
+
+    <compatibility minVersion="5.2.13"/>
+
+    <description lang="de">Dieses Plug-In installiert alle Sisow-Zahlungsmethoden für Ihre Shopware-Installation. Weitere Informationen zu den Zahlungsmethoden finden Sie auf unserer Website https://www.sisow.nl/betaalmethoden/</description>
+    <description lang="en">This plug-in will install all the Sisow payment methods to your Shopware installation. For more information about the payment methods visit our website https://www.sisow.nl/betaalmethoden/</description>
+    <description lang="nl">Deze plug-in installeert alle betaalmethoden van Sisow op uw Shopware-installatie. Voor meer informatie over de betaalmethoden bezoek onze website https://www.sisow.nl/betaalmethoden/</description>
+
+</plugin>

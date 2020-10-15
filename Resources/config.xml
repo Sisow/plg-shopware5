@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/shopware/shopware/5.3/engine/Shopware/Components/Plugin/schema/config.xsd">
+    <elements>
+        <element required="true" type="text" scope="locale">
+            <name>merchantid</name>
+            <label lang="de">Merchant ID</label>
+            <label lang="en">Merchant ID</label>
+            <label lang="nl">Merchant ID</label>
+            <value></value>
+            <description lang="en">Merchant ID from your Sisow account.</description>
+            <description lang="nl">Merchant ID uit uw Sisow account.</description>
+        </element>
+
+        <element required="true" type="text" scope="locale">
+            <name>merchantkey</name>
+            <label lang="de">Merchant Key</label>
+            <label lang="en">Merchant Key</label>
+            <label lang="nl">Merchant Key</label>
+            <value></value>
+            <description lang="en">Merchant Key from your Sisow account.</description>
+            <description lang="nl">Merchant Key uit uw Sisow account.</description>
+        </element>
+
+        <element required="false" type="text" scope="shop">
+            <name>shopid</name>
+            <label lang="de">Shop ID</label>
+            <label lang="en">Shop ID</label>
+            <label lang="nl">Shop ID</label>
+            <value></value>
+            <description lang="en">Shop ID from your Sisow account.</description>
+            <description lang="nl">Shop ID uit uw Sisow account.</description>
+        </element>
+
+        <element required="false" type="boolean" scope="locale">
+            <name>testmode</name>
+            <label lang="de">Testmodus aktiv</label>
+            <label lang="en">Testmode active</label>
+            <label lang="nl">Testmode aktief</label>
+            <value></value>
+            <description lang="en">Activate Sisow test mode.</description>
+            <description lang="de">Sisow test mode aktivieren.</description>
+            <description lang="nl">Activeer Sisow test modus.</description>
+        </element>
+
+        <element required="false" type="text" scope="locale">
+            <name>description</name>
+            <label lang="de">Beschreibung Kontoauszugn</label>
+            <label lang="en">Description bank statement</label>
+            <label lang="nl">Omschrijving bankafschrift</label>
+            <value></value>
+            <description lang="en">Description which the consumer sees on his / her bank statement. ([name] is replaced with shop name).</description>
+            <description lang="de">Beschreibung, die der Verbraucher auf seinem Kontoauszug sieht. ([name] wird durch den Shopnamen ersetzt).</description>
+            <description lang="nl">Omschrijving welke de consument ziet op zijn/haar bankafschrift. ([name] wordt vervangen voor shopnaam).</description>
+        </element>
+    </elements>
+</config>
