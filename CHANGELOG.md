@@ -5,5 +5,4 @@
 - Update or Shopware update  
 
 ## [5.3.0] - 2019-10-01
-###   
 - First version  
