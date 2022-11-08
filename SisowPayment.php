@@ -64,6 +64,7 @@ class SisowPayment extends Plugin
         /** @var \Shopware\Components\Plugin\PaymentInstaller $installer */
         $installer = $this->container->get('shopware.plugin_payment_installer');
 
+        $img_url = (isset($_SERVER['HTTP_HOST']) ? $schema . '://' . $_SERVER['HTTP_HOST'] : '') . '/custom/plugins/SisowPayment/Resources/views/frontend/images/'. $code;
         $options = [
             'name' => 'sisow_' . $code,
             'description' => 'Buckaroo ' . $name,
@@ -71,7 +72,7 @@ class SisowPayment extends Plugin
             'active' => 0,
             'position' => 0,
             'additionalDescription' =>
-                '<img src="https://www.sisow.nl/logo/payment/small-h/' . $code . '.png"/>'
+                '<img src="'.$img_url.'.png"/>'
                 . '<div id="payment_desc">'
                 . '  Pay save and secured with ' . $name . ', provided by Buckaroo.'
                 . '</div>'
