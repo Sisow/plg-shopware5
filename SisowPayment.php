@@ -66,14 +66,14 @@ class SisowPayment extends Plugin
 
         $options = [
             'name' => 'sisow_' . $code,
-            'description' => 'Sisow ' . $name,
+            'description' => 'Buckaroo ' . $name,
             'action' => 'Sisow',
             'active' => 0,
             'position' => 0,
             'additionalDescription' =>
                 '<img src="https://www.sisow.nl/logo/payment/small-h/' . $code . '.png"/>'
                 . '<div id="payment_desc">'
-                . '  Pay save and secured with ' . $name . ', provided by Sisow.'
+                . '  Pay save and secured with ' . $name . ', provided by Buckaroo.'
                 . '</div>'
         ];
 

@@ -4,22 +4,22 @@
     <elements>
         <element required="true" type="text" scope="locale">
             <name>merchantid</name>
-            <label lang="de">Merchant ID</label>
-            <label lang="en">Merchant ID</label>
-            <label lang="nl">Merchant ID</label>
+            <label lang="de">Website Key</label>
+            <label lang="en">Website Key</label>
+            <label lang="nl">Website Key</label>
             <value></value>
-            <description lang="en">Merchant ID from your Sisow account.</description>
-            <description lang="nl">Merchant ID uit uw Sisow account.</description>
+            <description lang="en">The website key can be found in the Buckaroo Plaza under → My Buckaroo → Websites. Using the filter button at the top right, you can then switch between multiple websites (if multiple websites are linked within the same Buckaroo account).</description>
+            <description lang="nl">De website key is te vinden in de Buckaroo Plaza onder → Mijn Buckaroo → Websites. Met behulp van de filterknop rechtsboven kun je vervolgens switchen tussen meerdere websites (als er meerdere websites zijn gekoppeld binnen hetzelfde Buckaroo-account).</description>
         </element>
 
         <element required="true" type="text" scope="locale">
             <name>merchantkey</name>
-            <label lang="de">Merchant Key</label>
-            <label lang="en">Merchant Key</label>
-            <label lang="nl">Merchant Key</label>
+            <label lang="de">Secret Key</label>
+            <label lang="en">Secret Key</label>
+            <label lang="nl">Secret Key</label>
             <value></value>
-            <description lang="en">Merchant Key from your Sisow account.</description>
-            <description lang="nl">Merchant Key uit uw Sisow account.</description>
+            <description lang="en">Can be set in the Buckaroo Plaza at → Configuration → Security → Secret Key.</description>
+            <description lang="nl">In te stellen in de Buckaroo Plaza op → Configuratie → Beveiliging → Secret Key.</description>
         </element>
 
         <element required="false" type="text" scope="shop">
@@ -28,8 +28,8 @@
             <label lang="en">Shop ID</label>
             <label lang="nl">Shop ID</label>
             <value></value>
-            <description lang="en">Shop ID from your Sisow account.</description>
-            <description lang="nl">Shop ID uit uw Sisow account.</description>
+            <description lang="en">Field is no longer mandatory </description>
+            <description lang="nl">Veld ons niet langer verplicht.</description>
         </element>
 
         <element required="false" type="boolean" scope="locale">
@@ -38,9 +38,9 @@
             <label lang="en">Testmode active</label>
             <label lang="nl">Testmode aktief</label>
             <value></value>
-            <description lang="en">Activate Sisow test mode.</description>
-            <description lang="de">Sisow test mode aktivieren.</description>
-            <description lang="nl">Activeer Sisow test modus.</description>
+            <description lang="en">Activate Buckaroo test mode.</description>
+            <description lang="de">Buckaroo test mode aktivieren.</description>
+            <description lang="nl">Activeer Buckaroo test modus.</description>
         </element>
 
         <element required="false" type="text" scope="locale">
