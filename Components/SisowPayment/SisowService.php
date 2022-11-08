@@ -1,6 +1,7 @@
 <?php
 
 namespace SisowPayment\Components\SisowPayment;
+use Shopware;
 
 class SisowService
 {
@@ -80,6 +81,13 @@ class SisowService
 
 	public function send($method, array $keyvalue = NULL, $return = 1) {
 		$url = "https://www.sisow.nl/Sisow/iDeal/RestHandler.ashx/" . $method;
+
+		//Software Headers
+		$keyvalue['PlatformName'] = 'Shopware5';
+		$keyvalue['PlatformVersion'] = Shopware()->Config()->get('Version');
+		$keyvalue['ModuleSupplier'] = 'Buckaroo B.V.';
+		$keyvalue['ModuleName'] = 'Buckaroo (former Sisow) Shopware5';
+		$keyvalue['ModuleVersion'] = '5.3.1';
 		
 		$options = array(
 			CURLOPT_POST => 1,
